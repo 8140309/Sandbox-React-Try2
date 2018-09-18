@@ -6,8 +6,15 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandboxas</h1>
+      <h1>Hello CodeSandboxas xssad</h1>
       <h2>Start editing to sadee some magic happen!</h2>
+      <button
+        onClick={() => {
+          alert("alert");
+        }}
+      >
+        alert
+      </button>
     </div>
   );
 }
